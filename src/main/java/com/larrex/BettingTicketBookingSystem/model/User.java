@@ -16,5 +16,7 @@ public class User {
     private String lastUpdateAt;
     private int age;
 
+    private boolean admin;
+
 
 }
