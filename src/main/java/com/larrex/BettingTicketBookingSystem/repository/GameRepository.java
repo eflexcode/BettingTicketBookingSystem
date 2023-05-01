@@ -10,7 +10,7 @@ public interface GameRepository extends MongoRepository<Game,String> {
 
     @Query("{gameId: '?0'}")
     Game findGameById(String id);
-    Game findGameByCategory(String id);
+//    Game findGameByCategory(String id);
 
 //    List<Game> findGamesBySportType(String sportType);
 
