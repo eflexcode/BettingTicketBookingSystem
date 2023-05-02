@@ -10,9 +10,10 @@ public class Game {
 
     @Id
     private String gameId;
+    private String gameTitle;
     private String startDate;
     private String endDate;
     private boolean liveGame;
+    private String  sportCategoryId;
 
-    private SportCategory sportCategory;
 }
