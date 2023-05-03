@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.UUID;
 
 @RestController
-@RequestMapping("/sport_category/")
+@RequestMapping("sport_category/")
 public class SportCategoryController {
 
     @Autowired
